@@ -1,8 +1,9 @@
-# test-mcp-client
+to test server if its running to debug: we get a mcp inspector tool on search engine: it is by anthropic:
 
-building mcp client:
- we use async functions here and asyncio.run to run client server
-with langchain-mcp-adapters rapper we hget MultiServerMCP Client class 
+uv run fastmcp dev main.py
 
-https://github.com/langchain-ai/langchain-mcp-adapters
-
+to run server:
+uv run fastmcp run main.py
+ma
+connecting mcp to claude desktop:
+uv run fastmcp install claude-desktop main.py 
